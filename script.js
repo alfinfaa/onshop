@@ -63,7 +63,7 @@ function checkout() {
   }
 
   const pesan = `Halo Admin, ada pesanan baru dari KOP MARKET.%0A%0A*Alamat:* ${alamat}%0A*Metode Pembayaran:* ${metode}`;
-  const noAdmin = "089508715913"; // Ganti dengan nomor WhatsApp admin (format internasional tanpa +)
+  const noAdmin = "6289508715913"; // Ganti dengan nomor WhatsApp admin (format internasional tanpa +)
   const linkWA = `https://wa.me/${noAdmin}?text=${encodeURIComponent(pesan)}`;
 
   window.open(linkWA, '_blank');
